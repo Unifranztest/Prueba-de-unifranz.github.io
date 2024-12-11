@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escala de Tolerancia a la Frustración</title>
+  <style>
+    /* General */
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      line-height: 1.6;
+      background: linear-gradient(to bottom right, orange, white);
+      background-attachment: fixed;
+      color: #333;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    h1, h2 {
+      color: #4a4a4a;
+    }
+
+    /* Header */
+    header {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 2px solid #fde8f2;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 2rem; /* Tamaño reducido */
+      margin: 80px 0 20px; /* Más espacio encima del título */
+      font-weight: bold;
+    }
+
+    header p {
+      font-size: 0.9rem; /* Tamaño reducido */
+      margin-top: 10px;
+      color: #7d7d7d;
+    }
+
+    /* Main Content */
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px 20px;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 1.8rem; /* Tamaño reducido */
+      margin-bottom: 20px;
+    }
+
+    section p {
+      font-size: 0.9rem; /* Tamaño reducido */
+      color: #555;
+      line-height: 1.6;
+      margin: 0 auto;
+      max-width: 700px;
+    }
+
+    /* Button */
+    .btn-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 35px; /* Tamaño reducido */
+      font-size: 0.9rem; /* Tamaño reducido */
+      font-weight: bold;
+      color: #fff;
+      background: linear-gradient(45deg, #ff7e5f, #feb47b);
+      border: none;
+      border-radius: 50px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      font-family: 'Georgia', serif;
+    }
+
+    .btn:hover {
+      background: linear-gradient(45deg, #feb47b, #ff7e5f);
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Footer */
+    footer {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 20px 20px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #7d7d7d;
+      border-top: 2px solid #fde8f2;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    /* Responsive Images */
+    .corner-images {
+      position: absolute;
+      width: 100px;
+      height: auto;
+    }
+
+    .corner-images.top-left {
+      top: 10px;
+      left: 10px;
+    }
+
+    .corner-images.top-right {
+      top: 10px;
+      right: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .corner-images {
+        width: 80px;
+      }
+
+      header h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <!-- Imagen superior izquierda -->
+  <img class="corner-images top-left" src="imagen1.png.jpeg" alt="Decoración superior izquierda">
+  <!-- Imagen superior derecha -->
+  <img class="corner-images top-right" src="imagen2.png.png" alt="Decoración superior derecha">
+  
+  <!-- Espaciado adicional entre imágenes y título -->
+  <div style="height: 40px;"></div>
+  
+  <h1>Escala de Tolerancia a la Frustración</h1>
+  <p>Creado por estudiantes de psicología, diseñado para ti.</p>
+</header>
+
+<main>
+  <section>
+    <h2>¿Qué es la tolerancia a la frustración?</h2>
+    <p>La tolerancia a la frustración es la capacidad de manejar situaciones difíciles, obstáculos o resultados inesperados sin perder la calma o rendirse fácilmente. Todos enfrentamos momentos en los que las cosas no salen como queremos, y cómo reaccionamos a esas situaciones es clave para nuestro bienestar emocional. Para los adolescentes y jóvenes, esta habilidad es especialmente importante porque ayuda a resolver problemas al buscar soluciones en lugar de rendirse, controlar las emociones y mantener la calma en momentos de estrés o decepción. También fortalece las relaciones al evitar conflictos y mejorar la comunicación con los demás, y permite superar desafíos y alcanzar metas personales, académicas y sociales incluso cuando surgen dificultades. La tolerancia a la frustración no significa ignorar los problemas o "aguantarse todo", sino enfrentarlos con paciencia, flexibilidad y una actitud positiva. Este test te ayudará a conocer tu nivel actual y reflexionar sobre cómo manejar mejor las situaciones complicadas en tu vida diaria.</p>
+  </section>
+
+  <section>
+    <h2>¿Cómo funciona el test?</h2>
+    <p>El test consta de 20 afirmaciones cuidadosamente diseñadas para evaluar tu nivel de tolerancia a la frustración. Cada pregunta tiene tres opciones: "Nunca" (1 punto), "A veces" (2 puntos) y "Siempre" (3 puntos). Al finalizar, obtendrás un puntaje que refleja tu nivel.</p>
+  </section>
+
+  <section class="btn-container">
+    <a href="test copy.html" class="btn">Iniciar la escala de la tolerancia a la frustración</a>
+  </section>
+
+  <section>
+    <h2>Sobre las creadoras del test</h2>
+    <p>Somos Amanda Vargas y Luciana Torricos, estudiantes de segundo semestre de Psicología. Nos preocupa este aspecto porque, como estudiantes, entendemos lo difícil que puede ser manejar la frustración en el día a día. Por eso, diseñamos este test pensando en una herramienta práctica y sencilla que te ayude a conocerte mejor y reflexionar sobre tus emociones. Nuestro objetivo es ofrecer algo útil y respetuoso con tu privacidad, porque creemos que el autoconocimiento es clave para crecer y enfrentar los retos de manera positiva.</p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 Test de Tolerancia a la Frustración. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
+
